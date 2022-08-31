@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  height: 100vh;
+  font-family: sans-serif;
+  padding-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100vw;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  gap: 30px;
+}
+
+input {
+  outline: none;
+  width: 350px;
+  height: 50px;
+  border-radius: 7px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  background: gray;
+  color: white;
+  font-size: 20px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile > h1 {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.profile > p {
+  font-size: 20px;
+}
